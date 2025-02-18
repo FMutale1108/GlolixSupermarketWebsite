@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - Glolix Supermarket</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="product-gallery">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                
+                <div class="product">
+                    <img src="Images/1.jpeg" alt="Product 1">
+                    <p></p>
+                    
+                    <button class="like-btn" onclick="likeProduct(1)">Like</button>
+                    
+                    <p id="message-1" class="like-message"></p>
+                </div>
+
+               
+                <div class="product">
+                    <img src="Images/2.jpeg" alt="Product 2">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(2)">
+                        Like 
+                    </button>
+                    <p id="message-2" class="like-message"></p>
+                </div>
+
+               
+                <div class="product">
+                    <img src="Images/3.jpeg" alt="Product 3">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(3)">
+                        Like 
+                    </button>
+                    <p id="message-3" class="like-message"></p>
+                </div>
+
+                
+                
+                <div class="product">
+                    <img src="Images/5 litres Cooking Oil.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/5.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/6.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/A.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Aloha detergent paste.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Aloha Washig Powder.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Xtra.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Baby Biscuits.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Baby Biscuits.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Baked beans.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Beef Sausages.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Big-milkit.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Boom paste.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Boom Shine plus.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Boom Sparking plus.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Boom Washig Powder.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Brown Sugar.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Bullet dish washing.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Cassava meal.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Cerevita.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Chico biscuits.jpeg" alt="Product 4">
+                    <p>Product 4 Description</p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Coolsplash.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Cornflakes.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Cosmetics.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Cotton Wool.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Crembos.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Dertergents.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Dispenser Water.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Dry Kapenta.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Eggs.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Ezee noodles.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Fresh bream.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Fresh fish.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Fresh milk.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Fuitop.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Green pepper.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Groceries.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Ice Cubes.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Icing Sugar.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Iodated Salt.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Juices.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Jungle Oats.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Lays.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Luckystar.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Mealie meal.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Mister Chilly Sause.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Nakonde Rice.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Nivea Roll on.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Refreshments.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Sauce.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Shake.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Softcare Sanitary pads.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Smoked fish.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/SoftCare2.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/SoftCare2.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Spices.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Spinners.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Thirsty.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/Vinegar.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/ZamGold cooking Oil.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/WhatsApp Image 2024-12-27 at 10.17.36 PM (1).jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/WhatsApp Image 2025-01-16 at 5.55.19 PM (1).jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/WhatsApp Image 2025-01-16 at 5.55.19 PM.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/WhatsApp Image 2025-01-16 at 5.55.20 PM.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/WhatsApp Image 2025-01-16 at 5.55.23 PM (1).jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/WhatsApp Image 2025-01-16 at 5.55.29 PM (1).jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/WhatsApp Image 2025-01-16 at 5.55.26 PM (1).jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/WhatsApp Image 2025-01-16 at 5.55.30 PM.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/wow.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/WhatsApp Image 2025-01-16 at 5.55.23 PM.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/WhatsApp Image 2025-01-16 at 5.55.28 PM.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/WhatsApp Image 2025-01-16 at 5.55.28 PM.jpeg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/1st page2.jpg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/pexels-pixabay-65620.jpg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+                <div class="product">
+                    <img src="Images/pexels-pixabay-45914.jpg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="Images/ePLANT.jpg" alt="Product 4">
+                    <p></p>
+                    <button class="like-btn" data-liked="false" onclick="likeProduct(4)">
+                        Like 
+                    </button>
+                    <p id="message-4" class="like-message"></p>
+                </div>
+
+               
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Glolix Supermarket</p>
+    </footer>
+
+    
+</body>
+</html>
