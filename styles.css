@@ -9,86 +9,89 @@ body {
 header {
     background-color: #003366;
     color: white;
-    padding: 10px 0;
+ nav {
+    background-color: #0044cc;
+    padding: 15px;
     text-align: center;
 }
 
-header nav ul {
+nav ul {
     list-style-type: none;
+    margin: 0;
     padding: 0;
 }
 
-header nav ul li {
-    display: inline;
+nav ul li {
+    display: inline-block; /* Ensure spacing works */
     margin: 0 15px;
 }
 
-header nav ul li a {
-    color: white;
+nav ul li a {
     text-decoration: none;
-    font-size: 18px;
-    transition: color 0.3s ease;
-}
-header nav ul li a:hover{
-    color: #ffd700;
-}
-
-.logo-container {
-    position: absolute; 
-    top: 10px; 
-    right: 20px; 
-    background-color: #003366;
-}
-
-.header-logo {
-    width: 100px; 
-    height: auto; 
-    cursor: pointer; 
-    transition: transform 0.3s ease; 
-}
-
-.header-logo:hover {
-    transform: scale(1.1); 
-}
-#hero {
-    background-image: url('hero-image.jpg'); 
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: white;
-    text-align: center;
-    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px; /* Space around the text */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover Effect */
+nav ul li a:hover {
+    background-color: #ffcc00; /* Square color on hover */
+    color: #0044cc; /* Change text color */
+    border-radius: 5px; /* Optional: rounded corners */
+}
+
+
+
+/* Hero Section */
+#hero {
+    background-color: white;
+    padding: 50px;
+    margin-top: 20px;
 }
 
 .hero-content {
-    max-width: 600px;
+    text-align: center;
 }
 
-.hero-content h1 {
-    font-size: 3em;
+/* Logo Styling in Hero Section */
+.logo-container {
     margin-bottom: 20px;
 }
 
+.header-logo {
+    width: 150px; /* Adjust size */
+    height: auto;
+    border-radius: 10px;
+}
+
+.hero-content h1 {
+    font-size: 32px;
+    color: #333;
+}
+
 .hero-content p {
-    font-size: 1.5em;
-    margin-bottom: 30px;
+    font-size: 18px;
+    color: #666;
 }
 
 .cta-button {
-    background-color: rgb(7, 230, 7);
+    display: inline-block;
+    background-color: blue;
     color: white;
-    padding: 15px 30px;
-    font-size: 1.2em;
+    padding: 10px 20px;
     text-decoration: none;
-    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 5px;
 }
 
 .cta-button:hover {
-    background-color: green;
+    background-color: rgb(43, 43, 245);
 }
+
 main {
     padding: 20px;
 }
